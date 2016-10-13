@@ -5,10 +5,13 @@ fileTypes: [
 ]
 patterns: [
   {
-    comment: "block comments"
-    begin: "^/\\*"
-    end: "^\\*/"
-    name: ".definition.block.comment"
+    begin: '/\\*'
+    captures:
+      '0':
+        'name': 'punctuation.definition.comment.ahk'
+    comment: 'multiline comment'
+    end: '\\*/'
+    name: 'comment.block.ahk'
   }
   {
     comment: "inline comments"
