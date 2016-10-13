@@ -6,10 +6,15 @@
   "activationEvents": [
     "language-autohotkey:toggle"
   ],
-  "repository": "https://github.com/cescue/language-autohotkey",
+  "repository": "https://github.com/zhaocai/language-autohotkey",
+  "keywords": [
+    "language",
+    "grammar",
+    "AutoHotkey"
+  ],
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {}
 }
